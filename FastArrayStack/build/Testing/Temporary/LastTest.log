@@ -1,0 +1,57 @@
+Start testing: Oct 24 23:40 PKT
+----------------------------------------------------------
+1/2 Testing: FastArrayStackTest.PushAndPop
+1/2 Test: FastArrayStackTest.PushAndPop
+Command: "/home/ag/Code/Data Structures/FastArrayStack/build/FastArrayStackTest" "--gtest_filter=FastArrayStackTest.PushAndPop" "--gtest_also_run_disabled_tests"
+Directory: /home/ag/Code/Data Structures/FastArrayStack/build
+"FastArrayStackTest.PushAndPop" start time: Oct 24 23:40 PKT
+Output:
+----------------------------------------------------------
+Running main() from /home/ag/Code/Data Structures/FastArrayStack/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FastArrayStackTest.PushAndPop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FastArrayStackTest
+[ RUN      ] FastArrayStackTest.PushAndPop
+[       OK ] FastArrayStackTest.PushAndPop (0 ms)
+[----------] 1 test from FastArrayStackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"FastArrayStackTest.PushAndPop" end time: Oct 24 23:40 PKT
+"FastArrayStackTest.PushAndPop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: FastArrayStackTest.Size
+2/2 Test: FastArrayStackTest.Size
+Command: "/home/ag/Code/Data Structures/FastArrayStack/build/FastArrayStackTest" "--gtest_filter=FastArrayStackTest.Size" "--gtest_also_run_disabled_tests"
+Directory: /home/ag/Code/Data Structures/FastArrayStack/build
+"FastArrayStackTest.Size" start time: Oct 24 23:40 PKT
+Output:
+----------------------------------------------------------
+Running main() from /home/ag/Code/Data Structures/FastArrayStack/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = FastArrayStackTest.Size
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FastArrayStackTest
+[ RUN      ] FastArrayStackTest.Size
+[       OK ] FastArrayStackTest.Size (0 ms)
+[----------] 1 test from FastArrayStackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"FastArrayStackTest.Size" end time: Oct 24 23:40 PKT
+"FastArrayStackTest.Size" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 24 23:40 PKT

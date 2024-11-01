@@ -1,0 +1,5 @@
+if(EXISTS "/home/ag/Code/Data Structures/FastArrayStack/build/FastArrayStackTest[1]_tests.cmake")
+  include("/home/ag/Code/Data Structures/FastArrayStack/build/FastArrayStackTest[1]_tests.cmake")
+else()
+  add_test(FastArrayStackTest_NOT_BUILT FastArrayStackTest_NOT_BUILT)
+endif()

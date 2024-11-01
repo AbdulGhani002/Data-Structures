@@ -1,0 +1,5 @@
+add_test([=[FastArrayStackTest.PushAndPop]=]  [==[/home/ag/Code/Data Structures/FastArrayStack/build/FastArrayStackTest]==] [==[--gtest_filter=FastArrayStackTest.PushAndPop]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[FastArrayStackTest.PushAndPop]=]  PROPERTIES WORKING_DIRECTORY [==[/home/ag/Code/Data Structures/FastArrayStack/build]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[FastArrayStackTest.Size]=]  [==[/home/ag/Code/Data Structures/FastArrayStack/build/FastArrayStackTest]==] [==[--gtest_filter=FastArrayStackTest.Size]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[FastArrayStackTest.Size]=]  PROPERTIES WORKING_DIRECTORY [==[/home/ag/Code/Data Structures/FastArrayStack/build]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  FastArrayStackTest_TESTS FastArrayStackTest.PushAndPop FastArrayStackTest.Size)

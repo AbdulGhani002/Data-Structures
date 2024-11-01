@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/FastArrayStackTest.dir/tests/FastArrayStackTest.cpp.o -o FastArrayStackTest  lib/libgtest_main.a libFastArrayStack.a lib/libgtest.a 

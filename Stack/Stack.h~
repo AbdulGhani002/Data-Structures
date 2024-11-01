@@ -1,0 +1,50 @@
+#IFNDEF // STACK_H
+#DEFINE // STACK_H
+
+
+namespace data_structures{
+template class<T>
+  class Stack{
+ protected:
+  T* array;
+  int head_index = -1;
+  int size;
+ public:
+  void init(int);
+  void display(void);
+  T peek(void);
+  int insert(T);
+  int delete();
+  }
+
+ void Stack::init(int size){
+   this->size = size;
+   T* array[size];
+ }
+
+ void Stack::display(void){
+   int temp = this->head_index;
+   while(temp != -1){
+     std::cout<<this->array[temp]<<"  ";
+   }
+   std::cout<<"\n";
+ }
+
+ void Stack::peek(void){
+   std::cout<<this->array[this->head_index]<<"\n";
+ }
+
+ int Stack::insert(T element){
+   this->head_index++;
+   this->array[head_index] = element;
+   return head_index;
+ }
+
+ int Stack::delete(void){
+   this->array[head_index] = NULL;
+   this->head_index--;
+   return this->head_index
+ }
+}
+
+#ENDIF // STACK_H

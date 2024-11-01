@@ -1,0 +1,3 @@
+FastArrayStackTest.PushAndPop 1 0.0314409
+FastArrayStackTest.Size 1 0.0206419
+---

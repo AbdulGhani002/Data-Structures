@@ -1,0 +1,2 @@
+/usr/bin/ar qc libFastArrayStack.a CMakeFiles/FastArrayStack.dir/FastArrayStack.cpp.o
+/usr/bin/ranlib libFastArrayStack.a

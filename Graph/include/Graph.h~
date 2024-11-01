@@ -1,0 +1,25 @@
+#ifndef GRAPH_H
+#define GRAPH_H
+
+#define MAX_ITERATION 1000
+
+namespace data_structures{
+template <class T>
+  class Graph{
+ protected:
+  
+ };
+
+ template <class T>
+   class Node{
+ public:
+   T data;
+   Node* connected_nodes[MAX_ITERATTION];
+
+   void connect_to(Node);
+   Node* show_neighbouring_nodes();
+ };
+};
+
+
+#endif //GRAPH_H

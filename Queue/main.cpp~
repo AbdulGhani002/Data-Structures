@@ -1,0 +1,12 @@
+#include<iostream>
+#include "Queue.h"
+using namespace std;
+
+int main(void){
+  Queue queue<int>(10);
+  queue.enque(1);
+  queue.enque(3);
+  queue.display();
+  queue.deque();
+  queue.display();
+}
