@@ -63,5 +63,4 @@ int main(void){
     std::cout << q.Dequeue() << std::endl;
     q.Display();
     return 0;
-    
 }
